@@ -20,13 +20,13 @@ Currently only compatible with Laravel 4.2.*
 Via Composer
 
 ``` bash
-$ composer require jonnypickett/moesif-laravel
+$ composer require moesif/moesif-laravel42
 ```
 
 After updating composer, add the ServiceProvider to the `providers` array in `config/app.php`
 
 ``` php
-JonnyPickett\MoesifLaravel\ServiceProvider::class,
+MoesifLaravel42\MoesifLaravel\ServiceProvider::class,
 ```
 
 ## Configuration
@@ -49,7 +49,7 @@ MOESIF_DEBUG
 Some sensible defaults are set for you in the config file, but if you need to modify it, you can modify it to fit your needs after publishing it with the command below.
 
 ```php
-php artisan config:publish jonnypickett/moesif-laravel
+php artisan config:publish moesif/moesif-laravel42
 ```
 
 (DO NOT PUT YOUR APPLICATION ID IN THE CONFIG FILE. USE THE ENV VARIABLE.)
@@ -284,13 +284,13 @@ Optional, If true, will print debug messages using Illuminate\Support\Facades\Lo
 To view more more documentation on integration options, please visit __[the Integration Options Documentation](https://www.moesif.com/docs/getting-started/integration-options/).__
 
 
-[ico-version]: https://img.shields.io/packagist/v/jonnypickett/moesif-laravel.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/moesif/moesif-laravel42.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jonnypickett/moesif-laravel.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/moesif/moesif-laravel42.svg?style=flat-square
 [ico-built-for]: https://img.shields.io/badge/built%20for-laravel-blue.svg
 
-[link-packagist]: https://packagist.org/packages/jonnypickett/moesif-laravel
-[link-downloads]: https://packagist.org/packages/jonnypickett/moesif-laravel
+[link-packagist]: https://packagist.org/packages/moesif/moesif-laravel42
+[link-downloads]: https://packagist.org/packages/moesif/moesif-laravel42
 [link-built-for]: http://laravel.com
 [link-cub-php]: https://packagist.org/packages/cub/cub
 [link-cub-widget-docs]: https://github.com/praetoriandigital/cub-docs

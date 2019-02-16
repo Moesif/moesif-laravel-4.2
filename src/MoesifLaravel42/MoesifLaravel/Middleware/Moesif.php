@@ -1,10 +1,10 @@
-<?php namespace JonnyPickett\MoesifLaravel\Middleware;
+<?php namespace MoesifLaravel42\MoesifLaravel\Middleware;
 
 use Config;
 use DateTime;
 use DateTimeZone;
 use Input;
-use JonnyPickett\MoesifLaravel\Sender\MoesifApi;
+use MoesifLaravel42\MoesifLaravel\Sender\MoesifApi;
 use Log;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

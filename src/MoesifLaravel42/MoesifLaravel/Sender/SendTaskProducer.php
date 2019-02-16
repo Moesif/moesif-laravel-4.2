@@ -1,7 +1,7 @@
-<?php namespace JonnyPickett\MoesifLaravel\Sender;
+<?php namespace MoesifLaravel42\MoesifLaravel\Sender;
 
-use JonnyPickett\MoesifLaravel\Sender\BaseClass;
-use JonnyPickett\MoesifLaravel\Sender\SendCurlTaskConsumer;
+use MoesifLaravel42\MoesifLaravel\Sender\BaseClass;
+use MoesifLaravel42\MoesifLaravel\Sender\SendCurlTaskConsumer;
 
 if (!function_exists('json_encode')) {
     throw new Exception('The JSON PHP extension is required.');
