@@ -1,7 +1,7 @@
-<?php namespace JonnyPickett\MoesifLaravel;
+<?php namespace MoesifLaravel42\MoesifLaravel;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use JonnyPickett\MoesifLaravel\Middleware\Moesif;
+use MoesifLaravel42\MoesifLaravel\Middleware\Moesif;
 
 class ServiceProvider extends BaseServiceProvider
 {
@@ -20,7 +20,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
-        $this->package('jonnypickett/moesif-laravel', 'moesif');
+        $this->package('moesif/moesif-laravel42', 'moesif');
     }
 
     /**

@@ -1,6 +1,6 @@
-<?php namespace JonnyPickett\MoesifLaravel\Tests;
+<?php namespace MoesifLaravel42\MoesifLaravel\Tests;
 
-use JonnyPickett\MoesifLaravel\Tests\MoesifLaravelTestCase;
+use MoesifLaravel42\MoesifLaravel\Tests\MoesifLaravelTestCase;
 
 class MoesifLaravelTest extends MoesifLaravelTestCase
 {
