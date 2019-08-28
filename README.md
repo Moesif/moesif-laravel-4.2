@@ -6,6 +6,7 @@
 [![Software License][ico-license]](LICENSE.md)
 
 Moesif SDK for Laravel 4.2.*
+SDK middleware that automatically logs API calls and sends to [Moesif](https://www.moesif.com) for API analytics and monitoring.
 
 * [Compatibility](#compatibility)
 * [Installation](#installation)
@@ -31,11 +32,12 @@ MoesifLaravel42\MoesifLaravel\ServiceProvider::class,
 
 ## Configuration
 
-You will need to provide your Moesif Application ID in order to get this working.
+Your Moesif Application Id can be found in the [_Moesif Portal_](https://www.moesif.com/).
+After signing up for a Moesif account, your Moesif Application Id will be displayed during the onboarding steps. 
 
-You can find your Application ID from the [_Moesif Dashboard_](https://www.moesif.com/) -> _Top Right Menu_ -> _Installation_
-
-If you don't need to change any other config values, you can get away with just setting the appropriate env variable. The necessary env variable for the Application ID is:
+You can always find your Moesif Application Id at any time by logging 
+into the [_Moesif Portal_](https://www.moesif.com/), click on the top right menu,
+and then clicking _Installation_.
 
 ```php
 MOESIF_APPLICATION_ID
